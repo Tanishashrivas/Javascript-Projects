@@ -1,0 +1,122 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 72px;
+    margin: 0px 45px 10px 45px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 4px 15px 0px;
+}
+
+.left img{
+    width: 59px;
+    height: 59px;
+    margin-right: -29px;
+    margin-left: 3px;
+}
+nav{
+    padding-top: 12px 0;
+}
+nav ul li{
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 23px 18px;
+    font-size: .75rem;
+    color: #323030;
+}
+#Men:hover{
+    border-bottom: 3px solid rgb(5, 133, 165) ;
+    cursor: pointer;
+}
+#Women:hover{
+    border-bottom: 3px solid rgba(235, 36, 145, 0.842) ;
+    cursor: pointer;
+}
+#Kids:hover{
+    border-bottom: 3px solid rgb(196, 209, 18) ;
+    cursor: pointer;
+}
+#HL:hover{
+    border-bottom: 3px solid rgb(235, 197, 126) ;
+    cursor: pointer;
+}
+#Beauty:hover{
+    border-bottom: 3px solid rgb(212, 28, 28) ;
+    cursor: pointer;
+}
+#Studio:hover{
+    border-bottom: 3px solid rgb(43, 194, 23) ;
+    cursor: pointer;
+}
+.right i {
+    font-size: 20px;
+    margin: 19px 20px;
+}
+.search{
+    position: fixed;
+    right: 40%;
+}
+.searchbar {
+    width: 25vw;
+    padding: 10px;
+    border-radius: 3px;
+    color: #929292;
+    letter-spacing: .7px;
+    border: none;
+    background-color: #F5F5F6;
+}
+.profile{
+    /* position: fixed;
+    right:12%; */
+}
+.wishlist{
+    /* position: fixed;
+    right:6.5%; */
+}
+.bag{
+    /* position: fixed;
+    right:1.5%; */
+}
+.section1{
+    margin: 20px 0;
+}
+.home{
+    width: 91vw;
+    height: 60vh;
+}
+.itemimg{
+    width: 14vw;
+    margin: 2px 6px;
+    height:48vh;
+}
+.h2{
+    margin-left: 3vw;
+}
+
+/* footer */
+footer {
+    margin: 12px;
+    padding: 16px;
+    font-size: 15px;
+    color: grey;
+}
+.ft-color li{
+    color: #848485;
+    font-size: .9rem;
+}
+.onlineS{
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #323030;
+}
